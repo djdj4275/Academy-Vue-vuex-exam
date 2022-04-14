@@ -5,6 +5,13 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    board : [
+      {id : "", title : "", count : ""},
+    ],
+    memolist : [
+      {memo : ""},
+    ],
+    count : 0,
   },
   getters: {
   },
